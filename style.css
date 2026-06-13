@@ -52,6 +52,13 @@ body{
     width:100%;
     max-width:250px;
     margin:auto;
+
+    position:relative;
+    padding:20px;
+    text-align:center;
+
+    background:white;
+    border-radius:15px;
 }
 
 .card h2{
