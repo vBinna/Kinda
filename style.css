@@ -31,9 +31,21 @@ body{
 .files{
     display:grid;
     grid-template-columns:repeat(3, 250px);
-    gap:20px;
     justify-content:center;
-    margin-top:30px;
+    gap:20px;
+    padding:0 10px;
+}
+
+@media (max-width: 900px){
+    .files{
+        grid-template-columns:repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px){
+    .files{
+        grid-template-columns:1fr;
+    }
 }
 
 .card{
